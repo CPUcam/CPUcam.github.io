@@ -1,49 +1,72 @@
-body {
-  background-image: url("../hello.png");
+.heading {
+  padding-top: 125px;
+  font-family: arial, helvetica, sans-serif;
 }
 
-.btn-background {
-  background-color: #F6F6F6;
-  border-width: 2px;
-  border-color: #2B2B2B;
-  border-radius: 0px;
-  color: black;
+.intro-heading {
+  background:      url("http://minimalwallpapers.com/wp-content/uploads/2010/06/bokeh-25601600.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 655px;
 }
 
-.btn-background:hover {
+.profile {
+  height: 300px;
+  width: 300px;
+}
+
+.about-space {
+  padding-top: 75px;
+}
+
+.profile-space {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.about-content {
+  background: url("http://www.minimalwall.com/wp-content/uploads/minimal-desktop-wallpaper-2626262.png") no-repeat center center fixed;
   color: white;
-  background-color: #2B2B2B;
+  background-size: cover;
+  height: 855px;
 }
 
-.center {
-  margin: 0 auto;
+.about-content @media(max-width:768px) {
+  display: block;
+  margin: auto;
 }
 
-/*==========  Mobile First Method  ==========*/
+.portfolio {
+  padding-top: 50px;
+  background: url("http://www.minimalwall.com/wp-content/uploads/minimal-desktop-wallpaper-2626262.png") no-repeat center center fixed;
+  color: white;
+  background-size: cover;
+}
 
-    /* Custom, iPhone Retina */
-    @media only screen and (min-width : 320px) {
-        .center {
-          margin: 0 auto;
-        }
-    }
+.portfolio-item {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
 
-    /* Extra Small Devices, Phones */
-    @media only screen and (min-width : 480px) {
+.portfolio-space {
+  margin-top: 50px;
+}
 
-    }
+.social-btn {
+  height: 75px;
+  width: 75px;
+  display: block;
+  margin: auto;
+}
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
+.contact-space {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-
-    }
-
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-
-    }
+.contact-content {
+  background: url("http://www.minimalwall.com/wp-content/uploads/minimal-desktop-wallpaper-2626262.png") no-repeat center center fixed;
+  color: white;
+  background-size: cover;
+}
