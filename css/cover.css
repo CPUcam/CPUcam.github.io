@@ -1,3 +1,5 @@
+
+
 .heading {
   padding-top: 125px;
   font-family: arial, helvetica, sans-serif;
@@ -6,7 +8,7 @@
 .intro-heading {
   background:      url("http://minimalwallpapers.com/wp-content/uploads/2010/06/bokeh-25601600.jpg") no-repeat center center fixed;
   background-size: cover;
-  height: 655px;
+  height: 855px;
 }
 
 .profile {
@@ -15,7 +17,27 @@
 }
 
 .about-space {
-  padding-top: 75px;
+  position: static;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #F6F6F6;
+  margin-top: 75px;
+  margin-left: 100px;
+  margin-right: 100px;
+  z-index: 1;
+}
+
+.about-header {
+  background-color: #2B2B2B;
+  background-size: auto, cover;
+  position: absolute;
+  margin-bottom: -85px;
+  padding-top: 40px;
+  z-index: 2;
+  width: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .profile-space {
@@ -24,9 +46,9 @@
 }
 
 .about-content {
-  background: url("http://www.minimalwall.com/wp-content/uploads/minimal-desktop-wallpaper-2626262.png") no-repeat center center fixed;
+  background-color: #2B2B2B;
   color: white;
-  background-size: cover;
+  background-size: auto, cover;
   height: 855px;
 }
 
@@ -37,9 +59,9 @@
 
 .portfolio {
   padding-top: 50px;
-  background: url("http://www.minimalwall.com/wp-content/uploads/minimal-desktop-wallpaper-2626262.png") no-repeat center center fixed;
+  background: url("../hello.png") repeat fixed;
   color: white;
-  background-size: cover;
+  background-size: auto, cover;
 }
 
 .portfolio-item {
@@ -54,8 +76,8 @@
 }
 
 .social-btn {
-  height: 75px;
-  width: 75px;
+  height: 65px;
+  width: 65px;
   display: block;
   margin: auto;
 }
@@ -66,7 +88,7 @@
 }
 
 .contact-content {
-  background: url("http://www.minimalwall.com/wp-content/uploads/minimal-desktop-wallpaper-2626262.png") no-repeat center center fixed;
+  background: url("../hello.png") repeat fixed;
   color: white;
-  background-size: cover;
+  background-size: auto, cover;
 }

@@ -15,6 +15,10 @@
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
 
+    <!-- CSS for unslider -->
+    <link rel="stylesheet" href="../unslider-master/dist/css/unslider.css">
+    <link rel="stylesheet" href="../unslider-master/dist/css/unslider-dots.css">
+
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script><style type="text/css"></style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -65,23 +69,30 @@
 <a name="About"></a>
 <div class="about-content">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-6 about-space">
-        <h2>About me</h2>
+    <div class="about-header text-center">
+      <h2>About Me</h2>
+    </div>
+    <div class="text-center about-space">
+        <br>
+        <br>
         <p>paragraph of stuff about me
-          <br>
-          paragraph of stuff about me
-          <br>
-          paragraph of stuff about me
-          <br>
-          paragraph of stuff about me
-          <br>
-          paragraph of stuff about me
-        </p>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 profile-space">
-        <img class="img-circle profile" src="http://static1.squarespace.com/static/54e3a5cbe4b0c1742eb7ac77/54f773bfe4b0ceb22a6ea484/54f7797fe4b02fbfba581994/1425504640792/Silhouette-Portrait-Male-520-x-576.png?format=750w">
-      </div>
+        <br>
+        paragraph of stuff about me
+        <br>
+        paragraph of stuff about me
+        <br>
+        paragraph of stuff about me
+        <br>
+        paragraph of stuff about me
+        <br>
+        paragraph of stuff about me
+        <br>
+        paragraph of stuff about me
+        <br>
+        paragraph of stuff about me
+        <br>
+        <br>
+      </p>
     </div>
   </div>
 </div>
@@ -94,43 +105,14 @@
         <h4>These are some of my Programming Projects</h4>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6 portfolio-space">
-        <a href="google.com">
-          <img class="img-circle portfolio-item" src="http://www.porcelaingres.com/img/prodotti/collezioni/just_grey_light_grey.jpg">
-          <p class="text-center">Portfolio caption</p>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-space">
-        <a href="google.com">
-          <img class="img-circle portfolio-item" src="http://www.porcelaingres.com/img/prodotti/collezioni/just_grey_light_grey.jpg">
-          <p class="text-center">Portfolio caption</p>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-space">
-        <a href="google.com">
-          <img class="img-circle portfolio-item" src="http://www.porcelaingres.com/img/prodotti/collezioni/just_grey_light_grey.jpg">
-          <p class="text-center">Portfolio caption</p>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-space">
-        <a href="google.com">
-          <img class="img-circle portfolio-item" src="http://www.porcelaingres.com/img/prodotti/collezioni/just_grey_light_grey.jpg">
-          <p class="text-center">Portfolio caption</p>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-space">
-        <a href="google.com">
-          <img class="img-circle portfolio-item" src="http://www.porcelaingres.com/img/prodotti/collezioni/just_grey_light_grey.jpg">
-          <p class="text-center">Portfolio caption</p>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-space">
-        <a href="google.com">
-          <img class="img-circle portfolio-item" src="http://www.porcelaingres.com/img/prodotti/collezioni/just_grey_light_grey.jpg">
-          <p class="text-center">Portfolio caption</p>
-        </a>
-      </div>
+    <div class="my-slider">
+      <ul>
+        <li>Project</li>
+        <li>Project</li>
+        <li>Project</li>
+        <li>Project</li>
+        <li>Project</li>
+        <li>Project</li>
     </div>
   </div>
 </div>
@@ -169,3 +151,13 @@
     </div>
   </div>
 </div>
+  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="../unslider-master/src/js/unslider.js"></script>
+  <script>
+      jquery(document).ready(function($) {
+        $('.my-slider').unslider({
+          autoplay: true;
+        });
+      })
+  </script>
+</body>
