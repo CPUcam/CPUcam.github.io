@@ -11,19 +11,17 @@
   height: 855px;
 }
 
-.profile {
-  height: 300px;
-  width: 300px;
-}
-
 .about-space {
-  position: static;
+  position: absolute;
   border-style: solid;
   border-width: 5px;
-  border-color: #F6F6F6;
+  border-color: red;
   margin-top: 75px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  left: 0;
+  right: 0;
   z-index: 1;
 }
 
@@ -52,11 +50,6 @@
   height: 855px;
 }
 
-.about-content @media(max-width:768px) {
-  display: block;
-  margin: auto;
-}
-
 .portfolio {
   padding-top: 50px;
   background: url("../hello.png") repeat fixed;
@@ -80,6 +73,13 @@
   width: 65px;
   display: block;
   margin: auto;
+}
+
+@media (max-width: @screen-sm-max) {
+  .social-btn {
+    height: 25px;
+    width: 25px;
+  }
 }
 
 .contact-space {
