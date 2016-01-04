@@ -19,10 +19,16 @@
   margin-top: 75px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
   left: 0;
   right: 0;
   z-index: 1;
+}
+
+@media (max-width: @screen-sm-max) {
+  .about-space {
+    width: 80%;
+  }
 }
 
 .about-header {
