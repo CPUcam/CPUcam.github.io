@@ -46,7 +46,7 @@
 .unslider-arrow.prev {
   right: auto;
   left: 20px;
-  background: no-repeat 50% 50%;
+  background: no-repeat 50% 49%;
   background-image: url("../../../chevron-left.png");
   background-size: 11px 15px;
   background-color: white;
