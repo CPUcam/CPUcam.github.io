@@ -92,3 +92,13 @@
   color: white;
   background-size: auto, cover;
 }
+
+.carousel-item {
+  height: 200px;
+  width: 300px;
+}
+
+.carousel-img {
+  height: 100px;
+  width: 200px;
+}
