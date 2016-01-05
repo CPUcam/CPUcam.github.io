@@ -30,15 +30,28 @@
   left:20px;
   z-index:2;
   cursor:pointer}
-.unslider-arrow.next{
-  left:auto;
-  right:20px;
-  background: url("../../../chevron-right.png") no-repeat center center fixed;
+
+.unslider-arrow.next {
+  left: auto;
+  right: 20px;
+  background: no-repeat 50% 50%;
+  background-image: url("../../../chevron-right.png");
+  background-size: 11px 15px;
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  text-indent: -999em;
 }
 .unslider-arrow.prev {
   right: auto;
   left: 20px;
-  background: url("../../../chevron-right.png") no-repeat center center fixed;
-  width: 25px;
-  height: 25px;
+  background: no-repeat 50% 50%;
+  background-image: url("../../../chevron-left.png");
+  background-size: 11px 15px;
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  text-indent: -999em;
 }
