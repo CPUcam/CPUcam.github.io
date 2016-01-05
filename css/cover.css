@@ -96,6 +96,9 @@
 .carousel-item {
   height: 200px;
   width: 300px;
+  margin: 0 auto;
+  left: 50%;
+  right: 50%;
 }
 
 .carousel-img {
