@@ -29,7 +29,9 @@
   position:absolute;
   left:20px;
   z-index:2;
-  cursor:pointer}
+  cursor:pointer;
+  top: 1955px;
+}
 
 .unslider-arrow.next {
   left: auto;
