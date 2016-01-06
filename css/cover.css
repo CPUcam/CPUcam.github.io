@@ -95,10 +95,14 @@
 
 .carousel-item {
   height: 200px;
-  width: 300px;
+  width: 60%;
   margin: 0 auto;
   left: 50%;
   right: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 4px;
+  margin-bottom: 20px;
 }
 
 .carousel-img {
