@@ -36,7 +36,7 @@
 .unslider-arrow.next {
   left: auto;
   right: 20px;
-  background: rgba(0, 0, 0, .2) no-repeat 50% 50%;
+  background: rgba(255, 255, 255, .7) no-repeat 50% 50%;
   background-image: url("../../../chevron-right.png");
   background-size: 11px 15px;
   width: 32px;
@@ -44,7 +44,7 @@
   border-radius: 32px;
   text-indent: -999em;
   opacity: .6;
-  transition: opacity .2s;
+  transition: opacity .4s;
 }
 .unslider-arrow.prev {
   right: auto;
