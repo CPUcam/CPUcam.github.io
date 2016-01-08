@@ -84,6 +84,10 @@
   .about-header {
     width: 200px;
   }
+
+  .project-header {
+    margin-left: 20%;
+  }
 }
 
 .contact-space {
