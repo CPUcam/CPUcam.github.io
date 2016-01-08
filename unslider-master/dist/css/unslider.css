@@ -49,12 +49,13 @@
 .unslider-arrow.prev {
   right: auto;
   left: 20px;
-  background: no-repeat 50% 49%;
+  background: rgba(255, 255, 255, .7) no-repeat 44% 50%;
   background-image: url("../../../chevron-left.png");
   background-size: 11px 15px;
-  background-color: white;
   width: 32px;
   height: 32px;
   border-radius: 32px;
   text-indent: -999em;
+  opacity: .6;
+  transition: opacity .4s;
 }
