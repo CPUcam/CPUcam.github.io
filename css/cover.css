@@ -23,7 +23,7 @@
   left: 0;
   right: 0;
   z-index: 1;
-  text-align: left;
+  font-size: 18px;
 }
 
 .about-header {
