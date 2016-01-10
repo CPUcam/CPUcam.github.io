@@ -147,6 +147,7 @@ p {
 
   .intro-heading {
     background-position: 30%;
+    background-size: 100% auto;
   }
 }
 
