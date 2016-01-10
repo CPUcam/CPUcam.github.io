@@ -195,7 +195,7 @@ p {
 
 .progress-arrow {
   position: absolute;
-  top: 70%;
+  top: 85%;
   left: 50%;
   margin-left: -28px;
   background: rgba(255, 255, 255, .7) no-repeat 50% 50%;
