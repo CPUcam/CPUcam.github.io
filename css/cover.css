@@ -30,7 +30,7 @@ pre {
         width:0;
     }
     .intro-heading {
-      background-position: 25%;
+      background: url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat 25% 50% fixed;
     }
 }
 
