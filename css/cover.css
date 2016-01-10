@@ -108,7 +108,7 @@ p {
     padding-right: 4px;
   }
 
-  .progress-arrow {
+  a.progress-arrow {
     top: 460px;
   }
 }
