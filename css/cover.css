@@ -53,6 +53,7 @@ p {
 }
 
 .about-content {
+  position: relative;
   background-color: #2B2B2B;
   color: white;
   background-size: auto, cover;
