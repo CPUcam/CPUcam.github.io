@@ -29,7 +29,7 @@ pre {
     .side-collapse.in {
         width:0;
     }
-    .intro-heading {
+    body.intro-heading {
       background: url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat 25% 50% fixed;
     }
 }
