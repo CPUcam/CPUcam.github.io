@@ -212,3 +212,8 @@ p {
 .progress-arrow:hover {
   opacity: .2;
 }
+
+#passion {
+  background: url("http://i.imgur.com/zCGeBKZ.png") no-repeat center center fixed;
+  background-size: cover;
+}
