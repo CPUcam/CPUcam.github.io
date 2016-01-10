@@ -29,9 +29,6 @@ pre {
     .side-collapse.in {
         width:0;
     }
-    body.intro-heading {
-      background: url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat 25% 50% fixed;
-    }
 }
 
 p {
@@ -146,6 +143,10 @@ p {
 
   a.progress-arrow {
     top: 460px;
+  }
+
+  .intro-heading {
+    background: url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat 25% 50% fixed;
   }
 }
 
