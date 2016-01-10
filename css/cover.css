@@ -101,6 +101,11 @@ p {
   p {
     font-size: 12px;
   }
+
+  .about-space {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
 }
 
 .contact-space {
