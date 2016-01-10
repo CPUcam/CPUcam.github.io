@@ -1,5 +1,5 @@
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .heading {
@@ -96,6 +96,10 @@ p {
 
   .project-header {
     margin-left: 20%;
+  }
+
+  .about-space {
+    font-size: 12px;
   }
 }
 
