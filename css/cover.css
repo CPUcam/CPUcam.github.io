@@ -61,15 +61,8 @@ p {
   font-size: 18px;
 }
 
-.about-list {
-  text-align: left;
-  padding-left: 100px;
-  padding-right: 50px;
-}
-
 .about-header {
-  background-color: #2B2B2B;
-  background-size: auto, cover;
+  background: url("../hello.png") repeat fixed;
   position: absolute;
   margin-bottom: -85px;
   padding-top: 40px;
@@ -87,7 +80,7 @@ p {
 
 .about-content {
   position: relative;
-  background-color: #2B2B2B;
+  background: url("../hello.png") repeat fixed;
   color: white;
   background-size: auto, cover;
   height: 655px;
@@ -211,9 +204,4 @@ p {
 
 .progress-arrow:hover {
   opacity: .2;
-}
-
-#passion {
-  background: url("http://i.imgur.com/zCGeBKZ.png") no-repeat center center fixed;
-  background-size: cover;
 }
