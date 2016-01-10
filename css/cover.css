@@ -146,7 +146,7 @@ p {
   }
 
   .intro-heading {
-    background: url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat 25% 50% fixed;
+    background-position: 30%;
   }
 }
 
