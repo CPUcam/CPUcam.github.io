@@ -29,6 +29,9 @@ pre {
     .side-collapse.in {
         width:0;
     }
+    .intro-heading {
+      background-position: 25%;
+    }
 }
 
 p {
@@ -41,7 +44,7 @@ p {
 }
 
 .intro-heading {
-  background:      url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat center center fixed;
+  background: url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 855px;
 }
