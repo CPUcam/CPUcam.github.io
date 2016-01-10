@@ -153,12 +153,12 @@ p {
 
 .progress-arrow {
   position: absolute;
-  top: 212%;
+  top: 460px;
   left: 50%;
   margin-left: -28px;
   background: rgba(255, 255, 255, .7) no-repeat 50% 50%;
   background-image: url("../../../chevron-down.png");
-  background-size: 11px 15px;
+  background-size: 330px 20px;
   width: 56px;
   height: 44px;
   border-radius: 32px;
