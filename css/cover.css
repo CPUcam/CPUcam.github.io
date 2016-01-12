@@ -20,7 +20,7 @@ h4 {
   src: url("../Cabana-Regular.otf") format("opentype");
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .side-collapse-container{
         width:100%;
         position:relative;
