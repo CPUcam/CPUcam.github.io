@@ -11,6 +11,10 @@ p {
   font-size: 16px;
 }
 
+h4 {
+  font-size: 32px;
+}
+
 @font-face {
   font-family: "Cabana";
   src: url("../Cabana-Regular.otf") format("opentype");
