@@ -44,39 +44,6 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 767px) {
-  .social-btn {
-    height: 45px;
-    width: 45px;
-  }
-
-  .about-header {
-    width: 200px;
-  }
-
-  .project-header {
-    margin-left: 20%;
-  }
-
-  p {
-    font-size: 12px;
-  }
-
-  .about-space {
-    padding-left: 4px;
-    padding-right: 4px;
-  }
-
-  a.progress-arrow {
-    top: 460px;
-  }
-
-  .intro-heading {
-    background-position: 10%;
-    background-size: 767px 500px;
-  }
-}
-
 .contact-space {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -216,4 +183,37 @@ h4 {
 
 .progress-arrow:hover {
   opacity: .2;
+}
+
+@media only screen and (max-width: 767px) {
+  .social-btn {
+    height: 45px;
+    width: 45px;
+  }
+
+  .about-header {
+    width: 200px;
+  }
+
+  .project-header {
+    margin-left: 20%;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .about-space {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  a.progress-arrow {
+    top: 460px;
+  }
+
+  .intro-heading {
+    background-position: 10%;
+    background-size: 767px 500px;
+  }
 }
