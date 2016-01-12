@@ -80,11 +80,12 @@ p {
 
 .heading {
   padding-top: 125px;
+  font-size: 84px;
   font-family: Cabana, sans-serif;
 }
 
 .intro-heading {
-  font-size: 18px;
+  font-size: 32px;
   font-family: Cabana, sans-serif;
   background: url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat center center fixed;
   background-size: cover;
