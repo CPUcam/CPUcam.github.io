@@ -7,7 +7,16 @@ pre {
     tab-size: 8;
 }
 
-@media screen and (max-width: 768px) {
+p {
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "Cabana";
+  src: url("../Cabana-Regular.otf") format("opentype");
+}
+
+@media only screen and (max-width: 768px) {
     .side-collapse-container{
         width:100%;
         position:relative;
@@ -31,8 +40,42 @@ pre {
     }
 }
 
-p {
-  font-size: 16px;
+@media only screen and (max-width: 767px) {
+  .social-btn {
+    height: 45px;
+    width: 45px;
+  }
+
+  .about-header {
+    width: 200px;
+  }
+
+  .project-header {
+    margin-left: 20%;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .about-space {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  a.progress-arrow {
+    top: 460px;
+  }
+
+  .intro-heading {
+    background-position: 10%;
+    background-size: 767px 500px;
+  }
+}
+
+.contact-space {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .heading {
@@ -41,6 +84,7 @@ p {
 }
 
 .intro-heading {
+  font-family: Cabana, sans-serif;
   background: url("https://i.ytimg.com/vi/HrJDEEuoe2Q/maxresdefault.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 455px;
@@ -109,44 +153,6 @@ p {
   width: 65px;
   display: block;
   margin: auto;
-}
-
-@media only screen and (max-width: 767px) {
-  .social-btn {
-    height: 45px;
-    width: 45px;
-  }
-
-  .about-header {
-    width: 200px;
-  }
-
-  .project-header {
-    margin-left: 20%;
-  }
-
-  p {
-    font-size: 12px;
-  }
-
-  .about-space {
-    padding-left: 4px;
-    padding-right: 4px;
-  }
-
-  a.progress-arrow {
-    top: 460px;
-  }
-
-  .intro-heading {
-    background-position: 10%;
-    background-size: 767px 500px;
-  }
-}
-
-.contact-space {
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .contact-content {
