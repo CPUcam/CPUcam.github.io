@@ -110,11 +110,11 @@ h2 {
 }
 
 .portfolio {
-  padding-top: 50px;
+  padding-top: 40px;
   background: url("../hello.png") repeat fixed;
   color: white;
   background-size: auto, cover;
-  height: 555px;
+  height: 655px;
 }
 
 .portfolio-item {
@@ -227,7 +227,7 @@ h2 {
 
 .swiper-container {
         width: 100%;
-        height: 100%;
+        height: 455px;;
 }
 
 .swiper-slide {
