@@ -15,6 +15,10 @@ h4 {
   font-size: 32px;
 }
 
+h2 {
+  font-family: Cabana, sans-serif;
+}
+
 @font-face {
   font-family: "Cabana";
   src: url("../Cabana-Regular.otf") format("opentype");
@@ -108,6 +112,7 @@ h4 {
   background: url("../hello.png") repeat fixed;
   color: white;
   background-size: auto, cover;
+  height: 555px;
 }
 
 .portfolio-item {
