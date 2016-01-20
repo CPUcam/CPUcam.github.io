@@ -224,7 +224,7 @@ h2 {
     background-size: 767px 500px;
   }
 
-  .swiper-container {
+  div.swiper-container .swiper-container-horizontal {
     width: 300px;
     height: 200px;
   }
