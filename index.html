@@ -21,6 +21,7 @@
         <div class="col-xs-4 col-xs-offset-4">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Enter City...">
+            <p class="zip"></p>
             <span class="input-group-btn">
               <button class="btn btn-default glyphicon glyphicon-search" type="button"></button>
             </span>
@@ -42,7 +43,7 @@
       $(document).ready(function(){
         var zip = "";
         $('.btn').click(function(){
-          var zip = $('.form-control').text();
+          var zip = $('.form-control').val();
         });
         if (zip.length > 5 || zip.length < 5) {
           $.getJSON("api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&APPID=58229a4e217926a79008cbfb61134884", function(data){
