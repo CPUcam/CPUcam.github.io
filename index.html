@@ -43,17 +43,11 @@
         var zip = "";
         $('.btn').click(function(){
           zip = document.getElementById('zip').value;
-          $('.current').text(zip);
 
         if (zip.length == 5) {
           $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&APPID=58229a4e217926a79008cbfb61134884", function(data){
-            $.each( data, function( key, val) {
-              items.push("<li id='" + key + "'>" + val + "</li>");
-            });
-            $("<ul/>", {
-              "class": "my-new-list",
-              html: items.join("")
-            }).appendTo("body");
+            var obj = jQuery.parseJSON(data);
+            $('.current').text(obj);
           });
         }
         else {
