@@ -46,9 +46,10 @@
 
         if (zip.length == 5) {
           $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&APPID=58229a4e217926a79008cbfb61134884", function(data){
-            var temp = data.main.temp;
-            temp = Math.round((temp - 273.15)* 1.8000 + 32.00);
-            $('.current').text(temp + '\u00B0' + 'F');
+            var temp = Math.round((data.main.temp - 273.15)* 1.8000 + 32.00);
+            var high = Math.round((data.main.temp_max - 273.15)* 1.8000 + 32.00);
+            var low = Math.round((data.main.temp_min - 273.15)* 1.8000 + 32.00);
+            $('.current').text(temp + '\u00B0' + 'F' + ', High: ' + high + ', Low: ' + low);
           });
         }
         else {
