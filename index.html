@@ -46,7 +46,7 @@
           $('.current').text(zip);
 
         if (zip.length == 5) {
-          $.getJSON("api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&APPID=58229a4e217926a79008cbfb61134884", function(data){
+          $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&APPID=58229a4e217926a79008cbfb61134884", function(data){
             $.each( data, function( key, val) {
               items.push("<li id='" + key + "'>" + val + "</li>");
             });
