@@ -44,7 +44,7 @@
         $('.btn').click(function(){
           zip = document.getElementById('zip').value;
           $('.current').text(zip);
-        });
+
         if (zip.length > 5 || zip.length < 5) {
           $.getJSON("api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&APPID=58229a4e217926a79008cbfb61134884", function(data){
             $.each( data, function( key, val) {
@@ -59,6 +59,7 @@
         else {
           alert("Uh oh! Please enter a valid 5-digit, U.S. zipcode.");
         }
+        });
       });
     </script>
   </body>
