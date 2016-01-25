@@ -47,7 +47,7 @@
         if (zip.length == 5) {
           $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=" + zip + ",us&APPID=58229a4e217926a79008cbfb61134884", function(data){
             var temp = data.main.temp;
-            temp = (temp - 273.15)* 1.8000 + 32.00;
+            temp = Math.round((temp - 273.15)* 1.8000 + 32.00);
             $('.current').text(temp);
           });
         }
