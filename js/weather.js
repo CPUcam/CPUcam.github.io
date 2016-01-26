@@ -12,7 +12,8 @@ $(document).ready(function(){
       var city = data.name;
       $('.city').html('<p>Showing weather results for ' + city + '</p>');
       $('.wi').addClass("wi-owm-" + condition);
-      $('.weather-info').text(temp + '\u00B0' + 'F' + ', High: ' + high + ', Low: ' + low);
+      $('.weather-info').text('High: ' + high + ', Low: ' + low);
+      $('.current-temp').text(temp + '\u00B0' + 'F');
     });
   }
   else {
