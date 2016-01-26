@@ -6,7 +6,7 @@
 .current {
   margin: 0 auto;
   height: 200px;
-  width: 200px;
+  width: 100%;
   border-style: solid;
 }
 
