@@ -10,9 +10,9 @@ $(document).ready(function(){
       var low = Math.round((data.main.temp_min - 273.15)* 1.8000 + 32.00);
       var condition = data.weather[0].id;
       var city = data.name;
-      console.log(data);
+      $('.city').html('<p>Showing weather results for ' + city + '</p>');
       $('.wi').addClass("wi-owm-" + condition);
-      $('.current').text(temp + '\u00B0' + 'F' + ', High: ' + high + ', Low: ' + low);
+      $('.weather-info').text(temp + '\u00B0' + 'F' + ', High: ' + high + ', Low: ' + low);
     });
   }
   else {
