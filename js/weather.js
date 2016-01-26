@@ -8,7 +8,7 @@ $(document).ready(function(){
       var temp = Math.round((data.main.temp - 273.15)* 1.8000 + 32.00);
       var high = Math.round((data.main.temp_max - 273.15)* 1.8000 + 32.00);
       var low = Math.round((data.main.temp_min - 273.15)* 1.8000 + 32.00);
-      var condition = data.cod;
+      var condition = data.weather.id;
       var city = data.name;
       $('.wi').addClass("wi-owm-" + condition);
       $('.current').text(temp + '\u00B0' + 'F' + ', High: ' + high + ', Low: ' + low);
