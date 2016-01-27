@@ -14,7 +14,7 @@
   margin: 0 auto;
   padding-top: 50px;
   height: 200px;
-  width: 400px;
+  width: 80%;
   border-style: solid;
 }
 
@@ -24,4 +24,6 @@
 
 #item {
   border-style: solid;
+  margin-left: 10px;
+  margin-right: 10px;
 }
