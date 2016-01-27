@@ -21,3 +21,7 @@
 .current-temp {
   font-size: 54px;
 }
+
+#item {
+  border-style: solid;
+}
