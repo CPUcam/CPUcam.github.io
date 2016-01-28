@@ -23,6 +23,8 @@
 }
 
 #item {
+  height: 200px;
+  width: 200px;
   border-style: solid;
   margin: 0 auto;
 }
