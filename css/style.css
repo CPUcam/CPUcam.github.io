@@ -33,7 +33,7 @@
   font-size: 54px;
 }
 
-#item {
+.item {
   height: 200px;
   border-style: solid;
   margin: 0 auto;
@@ -66,4 +66,8 @@
   border-color: orange;
   margin-left: 0;
   margin-right: auto;
+}
+
+.gray {
+  color: gray;
 }

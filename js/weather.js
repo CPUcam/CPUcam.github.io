@@ -14,6 +14,9 @@ $(document).ready(function(){
       $('.wi').addClass("wi-owm-" + condition);
       $('.weather-info').text('High: ' + high + ', Low: ' + low);
       $('.current-temp').text(temp + '\u00B0' + 'F');
+      if (temp >= 50 && temp < 80) {
+        $('#item4').addClass("gray");
+      }
     });
   }
   else {
