@@ -7,8 +7,8 @@ body {
 }
 .box {
   margin: auto;
-  height: 75px;
-  width: 75px;
+  height: 275px;
+  width: 275px;
   border-style: solid;
   border-radius: 3px;
   border-color: black;
