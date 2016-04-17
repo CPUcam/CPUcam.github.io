@@ -5,6 +5,10 @@ body {
 .text {
   color: black;
 }
+.white {
+  padding-top: 50%;
+  color: white;
+}
 .box {
   margin: auto;
   height: 275px;
