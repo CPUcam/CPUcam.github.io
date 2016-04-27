@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Spectral by HTML5 UP</title>
+		<title>Writings</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,7 +21,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Spectral</a></h1>
+						<h1><a href="index.html">Raul Camacho</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -29,10 +29,8 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<!-- <li><a href="generic.html">Generic</a></li> -->
+											<li><a href="elements.html">Resume</a></li>
 										</ul>
 									</div>
 								</li>
@@ -43,16 +41,23 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Generic Page</h2>
-							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+							<h2>Writings</h2>
+							<p>These are some of my writings. Some are technology related, and some are life related.</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
 
-								<h3>Lorem ipsum dolor</h3>
-								<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+								<h3>Learning Back End for TruRecruit</h3>
+								<p>The journey of TruRecruit started in February 2016 during uMAD, which is an all day developer's conference on UT's campus. I ran into Jesse, who I had met at HackTX 2015.
+								He told me of the idea of TruRecruit, and I said I was on board pretty quickly. Shortly after, we discussed it with Bongani, who also jumped on board quickly.
+								During the next few weeks, we slowly started to work on our web app. As a start, we found and used a <a href="https://github.com/sahat/hackathon-starter">Hackathon Starter</a>
+								by Sahat as a base. This worked great because it was essentially a big MEAN stack template that had user authentication built-in using OAuth2.</p>
 
-								<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+								<p>Coming into TruRecruit, my experience in backend web development consisted of only a few node and mongodb tutorials. Luckily for me, I learn best under pressure, so I did my
+								best to learn the MEAN stack for TruRecruit. While researching the best way for us to upload resume's, I came across AWS S3. This solution was so much better than the local storage
+								idea I thought we would use. While trying to implement S3 with Node, I read various developer articles on the increased performance of using Golang as a backend language. Specifically,
+								I learned that handling hundreds of requests in a short time (like TruRecruit will hopefully do) to a service like S3 would be better done with Go as a backend language.
+								Currently, I am implementing our landing page and login/signup pages in the Go web framework Revel. I hope to have authentication soon, with file upload in S3 to follow.</p>
 
 								<hr />
 
